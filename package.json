@@ -1,0 +1,33 @@
+{
+  "name": "gudig-client",
+  "version": "0.1.0",
+  "description": "Gudig API Client",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && ava"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobitco/gudig-client.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Jesus Marquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nobitco/gudig-client/issues"
+  },
+  "homepage": "https://github.com/nobitco/gudig-client#readme",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-eslint": "^7.2.2",
+    "standard": "^10.0.2",
+    "uuid-base62": "^0.1.0"
+  }
+}
